@@ -1,0 +1,32 @@
+development:
+  adapter:  postgresql
+  encoding: unicode
+  database: gamify_development
+  pool:     5
+  host:     localhost
+  port:     5432
+  username: daa_user
+  password: development
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: gamify_test
+  pool: 5
+  host:     localhost
+  prot:     5432
+  username: daa_user
+  password: development
+
+production: 
+  adapter: postgresql
+  encoding: unicode
+  database: gamify_production
+  pool: 5
+  host:     localhost
+  port:     5432
+  username: daa_user
+  password: development
+
+cucumber:
+  <<: *test

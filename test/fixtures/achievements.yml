@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  achievement_name: MyString
+  achievement_description: MyString
+
+two:
+  achievement_name: MyString
+  achievement_description: MyString
